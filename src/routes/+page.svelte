@@ -7,9 +7,9 @@
 </script>
 
 <main class="flex flex-col">
-    <Hero />
-    <Product />
+    <!-- <Hero />
+    <Product /> -->
     <Reviews />
-    <FaQs />
-    <Conversion />
+    <!-- <FaQs /> -->
+    <!-- <Conversion /> -->
 </main>
