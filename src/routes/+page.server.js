@@ -6,5 +6,11 @@ export async function load({ setHeaders }) {
 	});
     const response = await fetch('http://localhost:5136/api/menu-item');
     const menu = await response.json();
-    return {menu}
+
+    return { 
+        menuItems: menu.map(x=>({
+        name: x.name,
+        price: x.price
+        }))
+    }
 }
